@@ -1,0 +1,15 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: demo-spring-security
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/fake_ecommerce
+    username: admin
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
